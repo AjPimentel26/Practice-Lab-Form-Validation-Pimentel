@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create a New Event</title>
+    <script src="index.js"></script>
+</head>
+<body>
+         
+
+      <br>
+    <label>Event Type: 
+        <select name="type" id="event">
+            <option>Club</option> 
+            <option>Board Meeting</option> 
+            <option>Car Shows</option> 
+            <option>Concerts</option> 
+            <option>Mall Tour</option> 
+        </select></label><br></br>
+        <label>Event Title: <input type="text" id="Title" required></label><br></br>  
+        <label>Event Dates: <input type="date" id = "date1" required></label>
+        <label>to <input type ="date" id ="2"></label><br></br>
+
+        <label>Posting Date: <input type="date" id = "When" required></label><br></br>
+ 
+    <input type="checkbox" id="type" name="req"><label>Is Registration Required?</label><br><br>
+    <input type="checkbox" id="title" name="associated"><label>Is this event associated with any Family Programs?</label><br><br>
+     <input type="checkbox" id="date" name="completion"><labe>Upon Registration completion, Are Users to receive on auto generated Email?</labe><br><br>
+     <input type="checkbox" id="to" name="contact"><label>Is there a point of Contact?</label><br><br>
+     <input type="checkbox"  id="post" name="command"><label>Is there a hosting command point of contact?</label><br><br>
+    
+     <input type = "submit" value = "Save" onclick="saveEvent()"/>
+     <input type = "submit" value = "Cancel" onclick="cancelEvent()"/>
+</form> 
+</body>
+</body>
+</html>
